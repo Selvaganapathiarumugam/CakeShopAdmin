@@ -113,7 +113,7 @@ if(isset($_REQUEST['submit']))
         <div class="container-fluid">
           <div class="row">
               <div class="col-lg-12">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Add New</button>
+                <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Add New</button>
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -127,7 +127,7 @@ if(isset($_REQUEST['submit']))
                     <form class="form-horizontal" action="Cake.php" method="post">
                       <div class="card-body">
                         <div class="form-group row">
-                          <label for="CAKEID " class="col-sm-2 col-form-label">CAKE ID</label>
+                          <label for="CAKEID " class="col-sm-2 col-form-label">ID</label>
                           <div class="col-sm-10">
                             <input type="text" class="form-control" id="CAKEID" name="CAKEID" placeholder="CAKE ID" required>
                           </div>
@@ -157,7 +157,7 @@ if(isset($_REQUEST['submit']))
           </div>
           <div class="row">
             <div class="col-lg-12">
-              <div class="card-body table-responsive p-0">
+              <div class="jumbotron">
                 <table id="cake" class="table table-hover text-nowrap">
                   <thead>
                     <tr>
